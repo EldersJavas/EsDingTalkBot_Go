@@ -1,5 +1,11 @@
 # EsDingTalkBot_Go
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/EldersJavas/EsDingTalkBot_Go.svg)](https://pkg.go.dev/github.com/EldersJavas/EsDingTalkBot_Go)
+[![GitHub license](https://img.shields.io/github/license/EldersJavas/EsDingTalkBot_Go?color=red&logo=apache&logoColor=red&style=flat-square)](https://github.com/EldersJavas/EsDingTalkBot_Go/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/EldersJavas/EsDingTalkBot_Go?color=green&style=flat-square)](https://github.com/EldersJavas/EsDingTalkBot_Go/stargazers)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/EldersJavas/EsDingTalkBot_Go?logo=go&style=flat-square)
+
+
 Using DingTalk GroupBot with one line
 
 So easy!

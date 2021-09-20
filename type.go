@@ -10,8 +10,9 @@ type dText struct {
 	Text struct {
 		Content string `json:"content"`
 	} `json:"text"`
-	Msgtype string  `json:"msgtype"`
+	Msgtype string `json:"msgtype"`
 }
+
 //Link Link型json
 type dLink struct {
 	Msgtype string `json:"msgtype"`
@@ -22,6 +23,7 @@ type dLink struct {
 		MessageUrl string `json:"messageUrl"`
 	} `json:"link"`
 }
+
 //MD Markdown型json
 type dMD struct {
 	Msgtype  string `json:"msgtype"`
@@ -79,8 +81,6 @@ type dErrorReport struct {
 	Errcode int    `json:"errcode"`
 	Errmsg  string `json:"errmsg"`
 }
-
-
 
 /*
 目前Markdown支持

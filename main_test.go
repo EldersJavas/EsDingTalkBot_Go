@@ -146,7 +146,7 @@ func TestSend(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := Send(tt.args.message, tt.args.pushURL)
+			got, err := send(tt.args.message, tt.args.pushURL)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("Send() error = %v, wantErr %v", err, tt.wantErr)
 				return
